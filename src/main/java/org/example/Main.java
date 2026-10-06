@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Введите номер карты: ");
 
         if (!scanner.hasNextLine()) {
-            System.out.println("Ошибка ввода");
+            System.out.println("Ошибка ввода!");
             return;
         }
 
