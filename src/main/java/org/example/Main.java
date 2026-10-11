@@ -107,7 +107,7 @@ public class Main {
                 return value;
             }
 
-            System.out.println("Значение не может быть отрицательным.");
+            System.out.println("ОШИБКА: Значение не может быть отрицательным.");
         }
     }
 }
