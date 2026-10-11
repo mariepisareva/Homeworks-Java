@@ -49,7 +49,6 @@ public class Main {
         while (true) {
             System.out.print("Введите имя: ");
             name = scanner.nextLine().trim();
-
             if (!name.isEmpty()) {
                 break;
             }
