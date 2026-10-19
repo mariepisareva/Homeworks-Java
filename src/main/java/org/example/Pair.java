@@ -31,12 +31,12 @@ public class Pair<K, V> {
 
     public static void main(String[] args) {
         final Pair<String, Integer> pair = new Pair<>("Age", 25);
-        System.out.println(pair); // Ожидаем: Pair{key=Age, value=25}
+        System.out.println(pair);
         final Pair<Integer, String> swapped = pair.swap();
-        System.out.println(swapped); // Ожидаем: Pair{key=25, value=Age}
+        System.out.println(swapped);
         final Pair<Object, Object> nullPair = new Pair<>(null, null);
-        System.out.println(nullPair); // Ожидаем: Pair{key=null, value=null}
+        System.out.println(nullPair);
         final Pair<Object, Object> nullSwapped = nullPair.swap();
-        System.out.println(nullSwapped); // Ожидаем: Pair{key=null, value=null}
+        System.out.println(nullSwapped);
     }
 }
